@@ -15,8 +15,12 @@ h2{
   margin-right: auto;
   width: 1000px;
 }
+
+p {
+  font-size: 30px;
+}
 .box {
-  
+  align-items: center;
   margin: 10px;
   border: 2px solid black;
 }
