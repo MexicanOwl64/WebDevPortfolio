@@ -1,0 +1,108 @@
+
+#bodyanimation {
+  background-color: black;
+  animation-name: FoxColorful;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes FoxColorful {
+  
+  50% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: orange;
+  }
+  100%{
+    background-attachment: black;
+  }
+}
+
+.audioPosition{
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.intro {
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  color: orange;
+  
+}
+
+.anotherText{
+  font-size: 25px;
+ 
+  position: absolute;
+  bottom: 200px;
+  right: 950px;
+  color: yellow;
+}
+.SongCredits {
+  font-size: 25px;
+ 
+  position: absolute;
+  top: 510px;
+  left: 950px;
+  color: green;
+  
+}
+
+.FoxFamily {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  
+}
+
+.FoxBooping{
+position: absolute;
+  bottom: 20px;
+  right: 10px;
+  left: 20px;
+border-color: red;
+border-width: 10px;
+border-style: solid;
+
+}
+
+.FoxPlaying{
+position: absolute;
+  bottom: 10px;
+  right: 20px;
+  top: 60px;
+border-color: green;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.FoxSleeping{
+position: absolute;
+  bottom: 40px;
+  right: 20px;
+  left: 25px;
+  top: 65px;
+border-color: yellow;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.FoxWatching{
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  border-color: purple;
+  border-width: 10px;
+  border-style: solid;
+}
+
