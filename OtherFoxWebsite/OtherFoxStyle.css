@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0; }
+
+header{
+  background:green
+}
+main{
+  background: lightblue;
+}
+
+h2 {
+  background: gold;
+ 
+}
+
+p {
+  background: lightred;
+}
+
+a {
+  background: yellow;
+}
+
+img {
+  width: 400px;
+  height: 300px
+}
+
+.bottom-box {
+  width: 70vw;
+  height: 10vh;
+  background: lightgreen;
+  border: 2px solid red;
+  margin: 40px;
+}
+
+.bottom-box p {
+  width: 50%;
+  font-size: 2vw;
+}
+
