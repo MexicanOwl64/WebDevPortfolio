@@ -1,0 +1,39 @@
+
+
+html {
+  font-size: 20px;
+  
+}
+body {
+  background-color: grey;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 2em;
+}
+
+#showBox {
+  color: orange;
+}
+#box-show {
+  display: none;
+  color: green;
+  border: 1px solid blue;
+ 
+}
+
+#box-image {
+  display: none;
+  color: green;
+  border: 1px solid blue;
+ 
+}
+
+#hideBox {
+  color: purple;
+}
+
+
+
